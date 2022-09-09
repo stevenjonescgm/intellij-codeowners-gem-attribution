@@ -70,3 +70,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+
+# functional gems for reproducing codeowners bug
+gem "redis-store"
