@@ -74,3 +74,4 @@ end
 
 # functional gems for reproducing codeowners bug
 gem "redis-store"
+gem "omniauth-auth0"
