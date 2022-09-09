@@ -14,6 +14,13 @@ test/system/ex_6_spec.rb @stevenjonescgm
 test/system/ex_7_spec.rb @stevenjonescgm
 test/system/ex_8_spec.rb @stevenjonescgm
 test/system/ex_9_spec.rb @stevenjonescgm
+
+
+# Adding a matcher with no owner causes parsing failure for all subsequent lines
+#   And syntax highlighting remains broken after modifying the line, eg prefixing with # comment
+# test/system/ex_8_spec.rb
+
+
 test/system/ex_10_spec.rb @stevenjonescgm
 test/system/ex_11_spec.rb @stevenjonescgm
 test/system/ex_12_spec.rb @stevenjonescgm
